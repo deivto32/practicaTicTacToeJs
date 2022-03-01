@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+.container {
+    height: 100%;
+    background-color:#B13B56;
+    padding: 0px;
+    transition: background-color 0.5s ease;
+}
+.arriba {
+    height: 10%;
+    border-bottom-color: #2B2C82;
+    border-bottom-style: solid;
+    border-width: 2px;
+}
+
+#marcador-x {
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    border-color: #6D2431;
+    border-bottom-style: hidden;
+    border-left-style: solid;
+    border-left-width: 10px;
+    background-color: #B13B56; 
+}
+#reiniciar {
+    width: 33.4%;
+    height: 100%;
+    float: left;
+    background: #4079BF;
+    background: -moz-linear-gradient(left, #4079BF 0%, #B13B56 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #4079BF), color-stop(100%, #B13B56));
+    background: -webkit-linear-gradient(left, #4079BF 0%, #B13B56 100%);
+    background: -o-linear-gradient(left, #4079BF 0%, #B13B56 100%);
+    background: -ms-linear-gradient(left, #4079BF 0%, #B13B56 100%);
+    background: linear-gradient(to right, #4079BF 0%, #B13B56 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4079BF', endColorstr='#B13B56', GradientType=1 );
+    opacity: 25%;
+/*    background-color: darkviolet;*/
+    
+}
+#marcador-o {
+    width: 33.3%;
+    height: 100%;
+    float: right;
+    border-color: #2B2C82;
+    border-bottom-style: hidden;
+    border-right-style: solid;
+    border-right-width: 10px;
+    background-color: #4079BF;
+}
+
+.tablero {
+    height: 90%;
+}
+.row {
+    height: 33.3%;
+    margin: 0px;
+}
+.col-4{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.a {
+    border-style: hidden solid;
+    border-width: 2px;
+}
+.b {
+    border-style: solid hidden;
+    border-width: 2px;
+}
+.c {
+    border-style: solid;
+    border-width: 2px;
+}
